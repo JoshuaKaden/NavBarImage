@@ -14,6 +14,7 @@
 		939E89DD1D3010F000608419 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 939E89DB1D3010F000608419 /* LaunchScreen.storyboard */; };
 		939E89E81D3010F000608419 /* navbarimageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939E89E71D3010F000608419 /* navbarimageTests.swift */; };
 		939E89F31D3010F000608419 /* navbarimageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939E89F21D3010F000608419 /* navbarimageUITests.swift */; };
+		939E8A011D3011B400608419 /* ImageNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939E8A001D3011B400608419 /* ImageNavBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		939E89EE1D3010F000608419 /* navbarimageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = navbarimageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		939E89F21D3010F000608419 /* navbarimageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navbarimageUITests.swift; sourceTree = "<group>"; };
 		939E89F41D3010F000608419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		939E8A001D3011B400608419 /* ImageNavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageNavBar.swift; path = Classes/ImageNavBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				939E89D21D3010F000608419 /* AppDelegate.swift */,
-				939E89D41D3010F000608419 /* ViewController.swift */,
-				939E89D61D3010F000608419 /* Main.storyboard */,
 				939E89D91D3010F000608419 /* Assets.xcassets */,
-				939E89DB1D3010F000608419 /* LaunchScreen.storyboard */,
+				939E8A001D3011B400608419 /* ImageNavBar.swift */,
 				939E89DE1D3010F000608419 /* Info.plist */,
+				939E89DB1D3010F000608419 /* LaunchScreen.storyboard */,
+				939E89D61D3010F000608419 /* Main.storyboard */,
+				939E89D41D3010F000608419 /* ViewController.swift */,
 			);
 			path = navbarimage;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				939E8A011D3011B400608419 /* ImageNavBar.swift in Sources */,
 				939E89D51D3010F000608419 /* ViewController.swift in Sources */,
 				939E89D31D3010F000608419 /* AppDelegate.swift in Sources */,
 			);
